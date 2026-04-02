@@ -9,12 +9,14 @@ import java.util.Scanner;
 public class Zipcode04 {
 
 	public static void main(String[] args) throws IOException {
-	// zipcode,sido,gugun,dong,bunji,seq
-	// 2. (읍면동 건물명:) 입력받아 출력
+		// 3~4. 부산, 울산, 대구 우편번호
+		//부산:3605
+		//대구:2782
+		//울산:820
 		
 		// 키보드 입력
 	Scanner in = new Scanner(System.in);
-	System.out.println("검색할 시/도를 입력하세요.\n부산,대구,경남");
+	System.out.println("검색할 시/도를 입력하세요.\n부산,대구,경남 등등");
 	String         sidos    = in.nextLine(); // "부산,대구,경남"
 	String []      sis      = sidos.trim().split(",");
 	int    []      cnt   = new int[sis.length];
@@ -49,11 +51,11 @@ public class Zipcode04 {
 		String bunji     = li[4].trim(); 
 		int    seq       = Integer.parseInt(li[5].trim());
 		
-		// 3. 부산, 울산, 대구 우편번호
-		//      sis       cnt
-		//		부산:3605 cnt[0]
-		//		대구:2782 cnt[1]
-		//		경남:     cnt[2]
+		// 3~4. 부산, 울산, 대구 우편번호
+		//부산:3605
+		//대구:2782
+		//울산:820
+		
 		for (int i = 0; i < sis.length; i++) {
 			if( sido.equals(sis[i]) )
 			cnt[i]++;

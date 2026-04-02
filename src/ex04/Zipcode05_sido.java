@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class ZipcodeMy2 {
+public class Zipcode05_sido {
 
 	public static void main(String[] args) throws IOException {
 	// zipcode,sido,gugun,dong,bunji,seq
@@ -16,7 +16,7 @@ public class ZipcodeMy2 {
 		
 	
 	// File
-	String         path  = ZipcodeMy2.class.getResource("").getPath(); 
+	String         path  = Zipcode05_sido.class.getResource("").getPath(); 
 	String         fname = "zipcode_utf8.csv"; 
 	File           file  = new File(path + fname);
 	
@@ -33,15 +33,7 @@ public class ZipcodeMy2 {
 		String [] li     = line.trim().split(",");
 		String zipcode   = li[0].trim(); 
 		String sido      = li[1].trim();
-		
-		// 3. 부산, 울산, 대구 우편번호
-		/* if ( !(sido.equals(inAddr)) ) {
-			String fmt  = "%s\n";
-			String addr = String.format(fmt, sido);
-			System.out.print(addr);
-			inAddr      = sido;
-			cnt++;
-			} */
+
 		 if (!(sido.equals(inAddr))) {
 			String fmt  = "%s\n";
 			String addr = String.format(fmt, sido);
