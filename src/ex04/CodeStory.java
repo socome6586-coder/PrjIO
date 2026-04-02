@@ -9,7 +9,7 @@ public class CodeStory {
 
 	public static void main(String[] args) throws IOException {
 		String path       = "D:/dev/java/PrjIO/src/ex04/";
-		String filename   = "korea.csv";
+		String filename   = "zipcode_utf8.csv";
 		
 		// 입력 파일
 		FileReader fr     = new FileReader(path + filename);
