@@ -12,14 +12,14 @@ public class Zipcode05_gugun {
 
 	public static void main(String[] args) throws IOException {
 	// zipcode,sido,gugun,dong,bunji,seq
-	// 2. (읍면동 건물명:) 입력받아 출력
+	// 7. 부산 부산진구 우편번호를 파일( .csv )로 출력
 	// 키보드 입력
 	Scanner        in    = new Scanner(System.in);
 		
 	
 	// File
 	String         path      = "D:/dev/java/PrjIO/src/ex04/"; 
-	String         fname     = "zipcode_utf8.csv"; 
+	String         fname     = "zipcode_utf8.csv";
 	File           file      = new File(path + fname);
 	
 	// 입력파일

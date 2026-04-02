@@ -10,7 +10,7 @@ public class Zipcode05_zipcode {
 
 	public static void main(String[] args) throws IOException {
 	// zipcode,sido,gugun,dong,bunji,seq
-	// 2. (읍면동 건물명:) 입력받아 출력
+	// 3. 부산, 울산, 대구 우편번호
 	// 키보드 입력
 	Scanner        in    = new Scanner(System.in);
 		

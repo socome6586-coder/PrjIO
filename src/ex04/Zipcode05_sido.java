@@ -10,7 +10,7 @@ public class Zipcode05_sido {
 
 	public static void main(String[] args) throws IOException {
 	// zipcode,sido,gugun,dong,bunji,seq
-	// 2. (읍면동 건물명:) 입력받아 출력
+	// 5. 한국의 시도명 출력 - 17건 
 	// 키보드 입력
 	Scanner        in    = new Scanner(System.in);
 		

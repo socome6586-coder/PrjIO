@@ -12,7 +12,7 @@ public class Zipcode05_dong {
 
 	public static void main(String[] args) throws IOException {
 	// zipcode,sido,gugun,dong,bunji,seq
-	// 2. (읍면동 건물명:) 입력받아 출력
+	// 6. 부산의 부전2동 우편번호만 화면 출력
 	// 키보드 입력
 	Scanner        in    = new Scanner(System.in);
 		
